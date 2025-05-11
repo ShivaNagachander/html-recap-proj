@@ -1,0 +1,117 @@
+* {
+    text-decoration: none; /* Removes underline from all links by default */
+    margin: 0; /* Removes default margin from all elements */
+    padding: 0; /* Removes default padding from all elements */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+body {
+    margin: 0; /* Removes default margin from body */
+    padding: 0; /* Removes default padding from body */
+    font-family: 'McLaren', sans-serif; /* Sets the font family for the body text */
+}
+.navbar {
+    background: rgb(73,144,242); /* Sets background color of navbar */
+    padding-right: 20px; /* Adds padding to the right of navbar */
+    padding-left: 20px; /* Adds padding to the left of navbar */
+    padding-top: 10px; /* Adds padding to the top of navbar */
+    padding-bottom: 10px; /* Adds padding to the bottom of navbar */
+    position: fixed; /* Fixes navbar at the top of the page */
+    width: 100%; /* Makes navbar full width */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between navbar items */
+    align-items: center; /* Aligns items vertically in the center */
+}
+.logo a {
+    font-size: 35px; /* Sets font size for logo */
+    font-weight: 600; /* Sets font weight for logo */
+    color: white; /* Sets text color for logo */
+}
+ul {
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Aligns list items vertically in the center */
+    list-style: none; /* Removes bullets from list items */
+}
+li {
+    margin-right: 25px; /* Adds margin to the right of each list item */
+}
+li a {
+    color: white; /* Sets text color for list item links */
+    font-size: 22px; /* Sets font size for list item links */
+    font-weight: bold; /* Makes list item links bold */
+}
+li a:hover {
+    color: #ff0000; /* Changes text color on hover for list item links */
+}
+
+.home {
+    padding-top: 100px; /* Adds padding to the top of the home section */
+    padding: 80px; /* Adds padding on all sides of the home section */
+    font-size: 20px; /* Sets font size for the home section */
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Distributes space between home section items */
+}
+.home-text {
+    max-width: 60%; /* Sets maximum width of text in home section */
+    line-height: 1.8; /* Sets line height for text in home section */
+}
+.home-img img {
+    width: 300px; /* Sets width of image in home section */
+    border-radius: 10%; /* Rounds the corners of the image */
+}
+
+.home h1 span {
+    color: #ff0000; /* Sets text color for span inside h1 in home section */
+} 
+
+.social-icons a {
+    color: rgb(73,144,242); /* Sets color for social icons */
+    margin-right: 45px; /* Adds margin to the right of each social icon */
+    font-size: 50px; /* Sets font size for social icons */
+}
+.social-icons a:hover {
+    color: #ff0000; /* Changes color of social icons on hover */
+}
+
+/* Content styles */
+.content {
+    padding: 20px; /* Adds padding to content section */
+    margin: 20px auto; /* Adds vertical margin and centers content section horizontally */
+    width: 80%; /* Sets width of content section */
+    max-width: 800px; /* Sets maximum width of content section */
+    text-align: center; /* Centers text in content section */
+}
+
+.content h2 {
+    font-size: 28px; /* Sets font size for h2 in content section */
+    margin-bottom: 20px; /* Adds margin to the bottom of h2 */
+}
+
+.skills-grid {
+    display: flex; /* Uses flexbox for layout */
+    gap: 40px; /* Adds gap between items in skills grid */
+    justify-content: center; /* Centers items in skills grid */
+}
+
+.skill {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    width: 150px; /* Sets width for each skill item */
+}
+
+.skill img {
+    width: 100px; /* Sets width for skill images */
+    height: 100px; /* Sets height for skill images */
+}
+
+footer {
+    background: rgb(73,144,242); /* Sets background color for footer */
+    color: white; /* Sets text color for footer */
+    text-align: center; /* Centers text in footer */
+    padding: 10px 0; /* Adds vertical padding to footer */
+    position: fixed; /* Fixes footer at the bottom of the page */
+    width: 100%; /* Makes footer full width */
+    bottom: 0; /* Positions footer at the bottom */
+    font-size: 25px; /* Sets font size for footer text */
+}
